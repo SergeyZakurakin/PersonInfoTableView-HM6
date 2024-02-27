@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		DC753C372B8E763F00A1AE84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753C362B8E763F00A1AE84 /* AppDelegate.swift */; };
 		DC753C392B8E763F00A1AE84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753C382B8E763F00A1AE84 /* SceneDelegate.swift */; };
-		DC753C3B2B8E763F00A1AE84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753C3A2B8E763F00A1AE84 /* ViewController.swift */; };
 		DC753C3E2B8E763F00A1AE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC753C3C2B8E763F00A1AE84 /* Main.storyboard */; };
 		DC753C402B8E764100A1AE84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC753C3F2B8E764100A1AE84 /* Assets.xcassets */; };
 		DC753C432B8E764100A1AE84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC753C412B8E764100A1AE84 /* LaunchScreen.storyboard */; };
+		DC753C4B2B8E778400A1AE84 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753C4A2B8E778400A1AE84 /* PersonViewController.swift */; };
+		DC753C4D2B8E7F5700A1AE84 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753C4C2B8E7F5700A1AE84 /* PersonDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC753C332B8E763F00A1AE84 /* TableView HM6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView HM6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC753C362B8E763F00A1AE84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC753C382B8E763F00A1AE84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC753C3A2B8E763F00A1AE84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC753C3D2B8E763F00A1AE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC753C3F2B8E764100A1AE84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC753C422B8E764100A1AE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC753C442B8E764100A1AE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC753C4A2B8E778400A1AE84 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		DC753C4C2B8E7F5700A1AE84 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				DC753C362B8E763F00A1AE84 /* AppDelegate.swift */,
 				DC753C382B8E763F00A1AE84 /* SceneDelegate.swift */,
-				DC753C3A2B8E763F00A1AE84 /* ViewController.swift */,
+				DC753C4A2B8E778400A1AE84 /* PersonViewController.swift */,
+				DC753C4C2B8E7F5700A1AE84 /* PersonDetailViewController.swift */,
 				DC753C3C2B8E763F00A1AE84 /* Main.storyboard */,
 				DC753C3F2B8E764100A1AE84 /* Assets.xcassets */,
 				DC753C412B8E764100A1AE84 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC753C3B2B8E763F00A1AE84 /* ViewController.swift in Sources */,
+				DC753C4D2B8E7F5700A1AE84 /* PersonDetailViewController.swift in Sources */,
 				DC753C372B8E763F00A1AE84 /* AppDelegate.swift in Sources */,
+				DC753C4B2B8E778400A1AE84 /* PersonViewController.swift in Sources */,
 				DC753C392B8E763F00A1AE84 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
