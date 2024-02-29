@@ -16,13 +16,14 @@ class PersonDetailViewController: UIViewController {
     
     
     
-    var personDetail: String!
+    var personDetail: Person!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        infoLabel.text = personDetail
+
+        infoLabel.text = personDetail.name + " " + personDetail.surname
     }
     
 

@@ -48,9 +48,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCX-IS-ZDO">
-                                <rect key="frame" x="159" y="323" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCX-IS-ZDO">
+                                <rect key="frame" x="30" y="323" width="315" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -58,6 +57,11 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hNN-bn-z4D"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zCX-IS-ZDO" firstAttribute="leading" secondItem="hNN-bn-z4D" secondAttribute="leading" constant="30" id="VsY-iT-bbR"/>
+                            <constraint firstItem="zCX-IS-ZDO" firstAttribute="centerY" secondItem="GCJ-jn-w2Z" secondAttribute="centerY" id="X4o-ZD-3Nd"/>
+                            <constraint firstItem="hNN-bn-z4D" firstAttribute="trailing" secondItem="zCX-IS-ZDO" secondAttribute="trailing" constant="30" id="ija-F3-BqW"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="MaP-8x-fib"/>
                     <connections>
